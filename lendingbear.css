@@ -1,0 +1,290 @@
+
+.topblock {
+  background-color: #2b323b;
+  height: 90px;
+  color: white;
+  font-family: roboto;
+
+}
+
+
+.bottomblock {
+  
+  color: rgb(76, 93, 247);
+  font-family: roboto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.bottomblock-line1 {
+  margin-top: 0px;
+  margin-right: 0px;
+  font-family: roboto italic 200;
+  font-size: 30px;
+  
+ 
+  
+}
+
+.bottomblock-part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+
+}
+
+  
+
+
+body {
+  padding-bottom: 200px;
+}
+
+.formblock1 {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.tagging {
+  font-family: Roboto;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
+
+}
+
+.personalinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  gap: 80px;
+  row-gap: 0px;
+  padding-left: 200px;
+  
+}
+
+::placeholder {
+  opacity: 0.5;
+  font-size: medium;
+
+}
+
+
+
+.infobar {
+  font-size: 18px;
+  padding-left: 3px;
+  padding-right: 100px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  border-width: 1px;
+  background-color: rgb(247, 245, 245);
+
+}
+
+.dobbar {
+  margin-right: 160px;
+  font-size: 17px;
+  padding-left: 3px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  border-width: 1px;
+  background-color: rgb(247, 245, 245);
+
+}
+.checkbox {
+  padding-right: 150px;
+}
+
+.employment {
+  margin-right: px;
+  font-size: 17px;
+  padding-left: 3px;
+  padding-right: 148px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.buttonblock {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+gap: 150px;
+margin-left: 400px;
+margin-top: 10px;
+}
+
+
+.submitbutton {
+  background-color: rgba(61, 61, 231, 0.979);
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-width: 1px;
+}
+
+.submitbutton:hover {
+  background-color: rgba(53, 53, 177, 0.979);
+}
+
+.submitbutton:active {
+  background-color: white;
+  color: rgba(61, 61, 200, 0.979);
+  border-color: gray;
+  
+}
+
+.resetbutton {
+  background-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border-width: 1px;
+
+}
+
+.resetbutton:hover {
+  background-color: rgb(153, 152, 152)
+}
+
+.resetbutton:active {
+  background-color: white;
+  color:black;
+  border-color: grey;
+  
+}
+
+
+.termschekbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 450px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  
+
+
+}
+.footerhead {
+  margin-top: 1px;
+ 
+}
+.footerlogo {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  row-gap: 50px;
+  margin-left: 80px;
+  margin-right: 20px;
+  
+}
+
+.trustpilot {
+margin-left: -8px;
+}
+
+.footerpara {
+  font-family: firasans;
+  font-weight: 300;
+  font-style:  italic;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  gap: 30px;
+  width: 180px;
+}
+
+.firstcheck {
+  width: 80px;
+  
+}
+
+.firstchecktag {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-family: firasans;
+  font-size: 12px;
+  width: 100px;
+  color:#005d9f;
+  
+
+}
+
+.righttext {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  font-family: LibreFranklin;
+  font-weight: 300;
+  color:#005d9f;
+  
+}
+
+.checklogo {
+margin-left: 40px;
+gap: 30px;
+}
+
+
+
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 200px;
+
+  
+}
+
+.pagebreck {
+  height: 130px;
+  background-color: #005d9f;
+  margin-bottom: 50px;
+
+}
+
+.pagebrecktext {
+  color: white;
+}

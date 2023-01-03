@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>trial form</title>
+</head>
+
+<body>
+
+<h2>apply here</h2>
+<form action="backend.php">
+
+  <label class="tagging" for="fname">First Name : </label>
+  <div> <input class="firstn" type="text" name="firstname" id="fname"></div>
+  
+  <label class="tagging" for="termsacceptance">I accept terms </label>
+  <div> <input class="checkbox" type="checkbox" name="termsacceptance" id="termsacceptance"></div>
+  
+  <label class="tagging" for="dob">date of birth </label>
+  <div> <input class="date" type="date" name="dob" id="dob"></div>
+  
+  <label class="tagging" for="residence">Type of Residence </label>
+  <div> Owner :<input class="house2" type="radio" name="residence" id="residence"> Rented :<input class="house1" type="radio" name="residence" id="residence"></div>
+  
+  <label class="myEmail" for="emailaddress">Email</label>
+  <div><input type="email" name="emailaddress" id="emailaddress"></div>
+
+  <label class="tagging" for="Employment">Employment Type</label>
+  <div>
+    <select class="firstn" name="Employment" id="Employment">
+      <option value="placeholder">Select</option>
+      <option value="employed">Employed</option>
+      <option value="selfemployed">Self-Employed</option>
+      <option value="Retired">Retired</option>
+      <option value="Disability">Disability</option>
+
+    </select>
+  </div>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+
+</form>
+
+
+<style>
+  .firstn {
+    background-color: aqua;
+    
+  }
+
+  .tagging {
+    font-size: 20px;
+  }
+
+ 
+  }
+</style>
+
+</body>
+
+
+</html>
